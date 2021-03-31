@@ -9,7 +9,7 @@ setup(name='tvrdart',
       author_email='3368283-3chelon@users.noreply.gitlab.com',
       packages=find_packages(),
       install_requires=[
-          'numpy', 'os', 'sys', 'scipy', 'matplotlib',
-          'sklearn', 'imageio', 'astra',
+          'numpy', 'scipy', 'matplotlib',
+          'sklearn', 'imageio',
       ],
       zip_safe=False)
